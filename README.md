@@ -30,7 +30,7 @@ Beam k=100: 0.0 , 0.05 , 0.05
 
 The values above are corresponding to maxNode value 10, 100, 100000.
 
-_2) For A* search, which heuristic is better, i.e., generates lower number of nodes?_
+_2) For A-star search, which heuristic is better, i.e., generates lower number of nodes?_
 
 For this problem, I took a similar approach to the experiment I did in Q1. And instead of checking if there is a solution for each puzzle, I increment the total number of node_count returned by the puzzle. And then I found the average number of nodes generated across the 300 puzzles for each search. 0 is returned if there is no solution, so that will not affect our math. I concluded that A-star with h2 is better than A-star with h1 because it regenerates less nodes. Number of nodes are printed below.
 
