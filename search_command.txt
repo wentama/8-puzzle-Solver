@@ -1,0 +1,22 @@
+maxNodes 20
+randomizeState 3
+printState
+solveAstar h1
+solveAstar h2
+solveBeam 5
+randomizeState 10
+printState
+solveAstar h1
+solveAstar h2
+solveBeam 10
+maxNodes 100
+printState
+solveAstar h1
+solveAstar h2
+solveBeam 10
+maxNodes 100000
+randomizeState 50
+printState
+solveAstar h1
+solveAstar h2
+solveBeam 100

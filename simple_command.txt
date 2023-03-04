@@ -1,0 +1,15 @@
+printState
+setState 312 4b5 678
+printState
+move up
+printState
+move right
+printState
+move down
+printState
+move left
+setState b12 345 678
+printState
+randomizeState 20
+printState
+
