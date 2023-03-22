@@ -2,6 +2,8 @@
 
 **An implementation of A-star search and Beam search for the 8-puzzle.**
 
+## Programming 
+
 I implemented two heuristic functions for A-star search: number of misplaced tiles (h1), the manhattan distance(h2). And for Beam search, I kept the manhattan distance as the evaluation function and allows the user to specific k, the beam width. 
 
 To run, user can set up a puzzle state in a .txt file as shown in the 'simple_command.txt'. And then, can call a search funnction: 'solveAstar <heuristic h1/h2>' and 'solveBeam <beam_width>'. An example is shown in 'search_command.txt'.
@@ -11,6 +13,8 @@ The code is organized into 3 separate python files and 1 main function to run th
 'eightPuzzle.py' contains functions to set up an initial puzzle state that is randomly generated from the goal state.
 'node.py' contains helper functions that will be called in 'searches.py'
 'searches.py' contains the two searches implemented. 
+
+## Experiments
 
 For the 'experiment.py', I ran a few experiments using the searches to answer the questions below:
 Note, these experiment can be recreated and obtain the same outputs as below. Q3 requires a slight edit to the searches methods as discussed below.
